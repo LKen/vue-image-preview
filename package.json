@@ -1,0 +1,27 @@
+{
+  "name": "style-create-npm",
+  "version": "1.0.0",
+  "description": "基于Vue2.0实现的图片组件，包括加载状态、预览、放大、移动功能",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LKen/vue-image-preview.git"
+  },
+  "author": "KLEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LKen/vue-image-preview/issues"
+  },
+  "homepage": "https://github.com/LKen/vue-image-preview#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
